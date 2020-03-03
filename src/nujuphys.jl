@@ -1,0 +1,3 @@
+module nujuphys
+
+end # module

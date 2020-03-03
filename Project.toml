@@ -1,0 +1,4 @@
+name = "nujuphys"
+uuid = "a8a91be5-c26c-4b7c-8060-2964e5ef7a25"
+authors = ["Luke Pickering <luketpickering@googlemail.com>"]
+version = "0.1.0"
