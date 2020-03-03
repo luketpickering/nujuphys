@@ -82,7 +82,7 @@ _toarr(v::Momentum4Vector) = [v.px,v.py,v.pz,v.e]
 _xyzfromarr(a) = XYZVector(a[1],a[2],a[3])
 _xyztfromarr(a) = XYZVector(a[1],a[2],a[3],a[4])
 
-mag2(v::ThreeVectors) = abs(_toarr(vectscale))
+mag2(v::ThreeVectors) = LinearAlgebra.norm(_toarr(v))
 mag(v::ThreeVectors) = sqrt(mag2(v))
 
 threemag2(v::FourVectors) = mag2(_threecomp(v))
